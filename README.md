@@ -11,4 +11,3 @@ We currently have the following components available for React applications:
 - [ScoreCard](https://github.com/pxblue/react-component-library/blob/dev/docs/ScoreCard.md)
 - [Spacer](https://github.com/pxblue/react-component-library/blob/dev/docs/Spacer.md)
 - [UserMenu](https://github.com/pxblue/react-component-library/blob/dev/docs/UserMenu.md)
-
