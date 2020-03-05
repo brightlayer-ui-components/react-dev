@@ -7,8 +7,8 @@
   src:
     local('Open Sans Light '),
     local('Open Sans-Light'),
-    url(static/media/open-sans-latin-300.60c86674.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-300.521d17bc.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-300.24f7b094.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-300.a7622f60.woff) format('woff'); /* Modern Browsers */
 }
 
 /* open-sans-300italic - latin */
@@ -20,8 +20,8 @@
   src:
     local('Open Sans Light italic'),
     local('Open Sans-Lightitalic'),
-    url(static/media/open-sans-latin-300italic.06bbd318.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-300italic.8a648ff3.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-300italic.6725c3fb.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-300italic.793b1237.woff) format('woff'); /* Modern Browsers */
 }
 
 /* open-sans-400normal - latin */
@@ -33,8 +33,8 @@
   src:
     local('Open Sans Regular '),
     local('Open Sans-Regular'),
-    url(static/media/open-sans-latin-400.cffb686d.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-400.bf2d0783.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-400.33543c5c.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-400.de0869e3.woff) format('woff'); /* Modern Browsers */
 }
 
 /* open-sans-400italic - latin */
@@ -46,8 +46,8 @@
   src:
     local('Open Sans Regular italic'),
     local('Open Sans-Regularitalic'),
-    url(static/media/open-sans-latin-400italic.987032ea.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-400italic.db70d0b9.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-400italic.b61a9055.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-400italic.06b4bfda.woff) format('woff'); /* Modern Browsers */
 }
 
 /* open-sans-600normal - latin */
@@ -59,8 +59,8 @@
   src:
     local('Open Sans SemiBold '),
     local('Open Sans-SemiBold'),
-    url(static/media/open-sans-latin-600.223a277b.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-600.1cd5320f.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-600.819af3d3.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-600.449d681c.woff) format('woff'); /* Modern Browsers */
 }
 
 /* open-sans-600italic - latin */
@@ -72,8 +72,8 @@
   src:
     local('Open Sans SemiBold italic'),
     local('Open Sans-SemiBolditalic'),
-    url(static/media/open-sans-latin-600italic.4950a720.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-600italic.318ea1ad.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-600italic.ebdfa24c.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-600italic.56e5756b.woff) format('woff'); /* Modern Browsers */
 }
 
 /* open-sans-700normal - latin */
@@ -85,8 +85,8 @@
   src:
     local('Open Sans Bold '),
     local('Open Sans-Bold'),
-    url(static/media/open-sans-latin-700.d08c09f2.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-700.623e3205.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-700.0edb7628.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-700.1f85e92d.woff) format('woff'); /* Modern Browsers */
 }
 
 /* open-sans-700italic - latin */
@@ -98,8 +98,8 @@
   src:
     local('Open Sans Bold italic'),
     local('Open Sans-Bolditalic'),
-    url(static/media/open-sans-latin-700italic.c02f5da6.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-700italic.72e19cbb.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-700italic.a49393f2.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-700italic.bf72679c.woff) format('woff'); /* Modern Browsers */
 }
 
 /* open-sans-800normal - latin */
@@ -111,8 +111,8 @@
   src:
     local('Open Sans ExtraBold '),
     local('Open Sans-ExtraBold'),
-    url(static/media/open-sans-latin-800.aaeffaf2.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-800.c6aa0c4a.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-800.ab3e500e.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-800.05ebdbe1.woff) format('woff'); /* Modern Browsers */
 }
 
 /* open-sans-800italic - latin */
@@ -124,8 +124,8 @@
   src:
     local('Open Sans ExtraBold italic'),
     local('Open Sans-ExtraBolditalic'),
-    url(static/media/open-sans-latin-800italic.6b3973ff.woff2) format('woff2'), 
-    url(static/media/open-sans-latin-800italic.79b58175.woff) format('woff'); /* Modern Browsers */
+    url(static/media/open-sans-latin-800italic.c62c3eea.woff2) format('woff2'), 
+    url(static/media/open-sans-latin-800italic.92da6f11.woff) format('woff'); /* Modern Browsers */
 }
 
 
