@@ -1,16 +1,16 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55ccb62a051aab6b4cfe185cf8d38390",
+    "revision": "063654be5c8a3bed510484d6dd5d78ca",
     "url": "iframe.html"
   },
   {
-    "url": "main.c887bfa088a708b7118c.bundle.js"
+    "url": "main.5dfef2098e1a6407ecae.bundle.js"
   },
   {
-    "url": "runtime~main.c887bfa088a708b7118c.bundle.js"
+    "url": "runtime~main.5dfef2098e1a6407ecae.bundle.js"
   },
   {
-    "revision": "d7dce65b7f8bc97d050c",
+    "revision": "341b96f7b789fd2b9565",
     "url": "static/css/vendors~main.5a8a6b15.chunk.css"
   },
   {
@@ -166,6 +166,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "static/media/pxb-icon.c26b974a.svg"
   },
   {
+    "revision": "a7cce4192ac7a9ea5c69e6b32cc41c13",
+    "url": "static/media/pxblue-react-alpha.a7cce419.svg"
+  },
+  {
+    "revision": "0a85a5942ce52a819b5d34b26cfb897a",
+    "url": "static/media/pxblue-react-beta.0a85a594.svg"
+  },
+  {
     "revision": "004ac03a11e41cb84ed64b910c3732db",
     "url": "static/media/pxblue-react.004ac03a.svg"
   },
@@ -206,13 +214,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "static/media/userMenuOpened.d17b1abb.png"
   },
   {
-    "url": "vendors~main.c887bfa088a708b7118c.bundle.js"
+    "url": "vendors~main.5dfef2098e1a6407ecae.bundle.js"
   },
   {
-    "url": "vendors~main.c887bfa088a708b7118c.bundle.js.LICENSE.txt"
+    "url": "vendors~main.5dfef2098e1a6407ecae.bundle.js.LICENSE.txt"
   },
   {
-    "revision": "d7dce65b7f8bc97d050c",
+    "revision": "341b96f7b789fd2b9565",
     "url": "vendors~main.css"
   }
 ]);
