@@ -42,7 +42,7 @@ object-assign
  * Released under the MIT License.
  */
 
-/*! axe v3.5.3
+/*! axe v3.5.5
  * Copyright (c) 2020 Deque Systems, Inc.
  *
  * Your use of this Source Code Form is subject to the terms of the Mozilla Public
@@ -100,7 +100,7 @@ object-assign
 
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
- * @version 1.16.1
+ * @version 1.16.1-lts
  * @license
  * Copyright (c) 2016 Federico Zivolo and contributors
  *
@@ -122,3 +122,7 @@ object-assign
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
+//! stable.js 0.1.8, https://github.com/Two-Screen/stable
+
+//! © 2018 Angry Bytes and contributors. MIT licensed.
