@@ -46,14 +46,14 @@ const xsDown = useMediaQuery(theme.breakpoints.down('xs'));
 
 <div style="overflow: auto;">
 
-| Prop Name                       | Description                                                | Type                                             | Required | Default |
-| ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------ | -------- | ------- |
-| open                            | Controls the open/closed state of the drawer               | `boolean`                                        | yes      |         |
-| classes                         | Style overrides                                            | `DrawerClasses`                                  | no       |         |
-| noLayout                        | Set to true if used without a `<DrawerLayout>`             | `boolean`                                        | no       | false   |
-| variant                         | The variant to use (see below)                             | `'permanent'` \| `'persistent'` \| `'temporary'` | no       |         |
-| width                           | Sets the width of the drawer (in px) when open             | `number`                                         | no       |         |
-| [...sharedProps](#shared-props) | Props that can be set at any level in the drawer hierarchy | -                                                | no       |         |
+| Prop Name                       | Description                                                                     | Type                                             | Required | Default |
+| ------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------ | -------- | ------- |
+| open                            | Controls the open/closed state of the drawer                                    | `boolean`                                        | yes      |         |
+| classes                         | Style overrides                                                                 | `DrawerClasses`                                  | no       |         |
+| noLayout                        | Set to true if used without a `<DrawerLayout>`                                  | `boolean`                                        | no       | `false` |
+| variant                         | The variant to use (see below)                                                  | `'permanent'` \| `'persistent'` \| `'temporary'` | no       |         |
+| width                           | Sets the width of the drawer (in px) when open                                  | `number`                                         | no       |         |
+| [...sharedProps](#shared-props) | Props that can be set at any level in the drawer hierarchy                      | -                                                | no       |         |
 
 </div>
 
@@ -71,11 +71,14 @@ The `Drawer` has three `variant`s:
 
 You can override the classes used by PX Blue by passing a `classes` prop. The Drawer supports the following keys:
 
-| Name    | Description                                     |
-| ------- | ----------------------------------------------- |
-| content | Styles applied to the drawer content container  |
-| paper   | MUI Drawer style override for desktop viewports |
-| root    | MUI Drawer style override for the root element  |
+| Name       | Description                                                    |
+| ---------- | -------------------------------------------------------------- |
+| content    | Styles applied to the drawer content container                 |
+| expanded   | Styles applied to the root element when the drawer is expanded |
+| paper      | MUI Drawer style override for desktop viewports                |
+| sideBorder | Styles applied when sideBorder is set to true                  |
+| root       | MUI Drawer style override for the root element                 |
+
 
 ## Drawer Header
 
@@ -89,19 +92,19 @@ The `<DrawerHeader>` contains the content at the top of the `<Drawer>`. By defau
 
 <div style="overflow: auto;">
 
-| Prop Name         | Description                                    | Type                  | Required | Default                      |
-| ----------------- | ---------------------------------------------- | --------------------- | -------- | ---------------------------- |
-| backgroundColor   | The color used for the background              | `string`              | no       | `theme.palette.primary.main` |
-| backgroundImage   | An image to display in the header              | `string`              | no       |                              |
-| backgroundOpacity | The opacity of the background image            | `number`              | no       | `0.3`                        |
-| classes           | Style overrides                                | `DrawerHeaderClasses` | no       |                              |
-| divider           | Optional divider which appears beneath header  | `boolean`             | no       | `false`                      |
-| fontColor         | The color of the text elements                 | `string`              | no       | dynamic based on background  |
-| icon              | A component to render for the icon             | `ReactNode`           | no       |                              |
-| onIconClick       | A function to execute when the icon is clicked | `function`            | no       | `() => {}`                   |
-| subtitle          | The text to show on the second line            | `string`              | no       |                              |
-| title             | The text to show on the first line             | `string`              | no       |                              |
-| titleContent      | Custom content for header title area           | `ReactNode`           | no       |                              |
+| Prop Name                     | Description                                    | Type                  | Required | Default                      |
+| ----------------------------- | ---------------------------------------------- | --------------------- | -------- | ---------------------------- |
+| backgroundColor               | The color used for the background              | `string`              | no       | `theme.palette.primary.main` |
+| backgroundImage               | An image to display in the header              | `string`              | no       |                              |
+| backgroundOpacity             | The opacity of the background image            | `number`              | no       | `0.3`                        |
+| classes                       | Style overrides                                | `DrawerHeaderClasses` | no       |                              |
+| divider                       | Optional divider which appears beneath header  | `boolean`             | no       | `false`                      |
+| fontColor                     | The color of the text elements                 | `string`              | no       | dynamic based on background  |
+| icon                          | A component to render for the icon             | `ReactNode`           | no       |                              |
+| onIconClick                   | A function to execute when the icon is clicked | `function`            | no       | `() => {}`                   |
+| subtitle                      | The text to show on the second line            | `string`              | no       |                              |
+| title                         | The text to show on the first line             | `string`              | no       |                              |
+| titleContent                  | Custom content for header title area           | `ReactNode`           | no       |                              |
 
 </div>
 
@@ -111,15 +114,15 @@ Any other props will be provided to the root element [**Material UI Toolbar**](h
 
 You can override the classes used by PX Blue by passing a `classes` prop. The `<DrawerHeader>` supports the following keys:
 
-| Name             | Description                                      |
-| ---------------- | ------------------------------------------------ |
-| root             | Styles applied to the root element               |
-| content          | Styles applied to the content container          |
-| background       | Styles applied to the header background          |
-| navigation       | Styles applied to the icon element               |
-| nonClickableIcon | Styles applied to the non-clickable icon element |
-| subtitle         | Styles applied to the subtitle element           |
-| title            | Styles applied to the title element              |
+| Name                          | Description                                      |
+| ----------------------------- | ------------------------------------------------ |
+| root                          | Styles applied to the root element               |
+| background                    | Styles applied to the header background          |
+| content                       | Styles applied to the content container          |
+| navigation                    | Styles applied to the icon element               |
+| nonClickableIcon              | Styles applied to the non-clickable icon element |
+| subtitle                      | Styles applied to the subtitle element           |
+| title                         | Styles applied to the title element              |
 
 ## Drawer Subheader
 
@@ -137,7 +140,16 @@ import DrawerSubheader from '@pxblue/react-components/core/Drawer';
 
 ### Drawer Subheader API
 
-Any props supplied will be provided to the root element (`div`).
+<div style="overflow: auto;">
+
+| Prop Name             | Description                                   | Type                | Required | Default |
+| --------------------- | --------------------------------------------- | ------------------- | -------- | ------- |
+| divider               | Optional divider which appears above footer   | `boolean`           | no       | `true`  |
+| hideContentOnCollapse | Hide subheader contents when drawer is closed | `boolean`           | no       | `true`  |
+
+</div>
+
+Any other props supplied will be provided to the root element (`div`).
 
 ## Drawer Body
 
@@ -158,10 +170,11 @@ import DrawerBody from '@pxblue/react-components/core/Drawer';
 
 <div style="overflow: auto;">
 
-| Prop Name       | Description                       | Type                | Required | Default |
-| --------------- | --------------------------------- | ------------------- | -------- | ------- |
-| backgroundColor | The color used for the background | `string`            | no       |         |
-| classes         | Style overrides                   | `DrawerBodyClasses` | no       |         |
+| Prop Name                       | Description                                | Type                | Required | Default |
+| ------------------------------- | ------------------------------------------ | ------------------- | -------- | ------- |
+| backgroundColor                 | The color used for the background          | `string`            | no       |         |
+| classes                         | Style overrides                            | `DrawerBodyClasses` | no       |         |
+
 
 </div>
 
@@ -206,16 +219,16 @@ Any other props will be provided to the root element [**Material UI List**](http
 
 You can override the classes used by PX Blue by passing a `classes` prop. The `<DrawerNavGroup>` supports the following keys:
 
-| Name              | Description                                   |
-| ----------------- | --------------------------------------------- |
-| active            | Styles applied to the active element          |
-| expandIcon        | Styles applied to the expandIcon element      |
-| groupHeader       | Styles applied to the NavGroup header element |
-| listGroup         | Styles applied to the NavGroup list           |
-| listItemContainer | Styles applied to the NavItem container       |
-| nestedListGroup   | Styles applied to nested NavItems             |
-| subheader         | Styles applied to the List subheader element  |
-| nestedTitle       | Styles applied to nested NavItem title        |
+| Name              | Description                                                              |
+| ----------------- | ------------------------------------------------------------------------ |
+| active            | Styles applied to the active element                                     |
+| expandIcon        | Styles applied to the expandIcon element                                 |
+| groupHeader       | Styles applied to the NavGroup header element                            | 
+| listGroup         | Styles applied to the NavGroup list                                      |
+| listItemContainer | Styles applied to the NavItem container                                  |
+| nestedListGroup   | Styles applied to nested NavItems                                        |
+| subheader         | Styles applied to the List subheader element                             |
+| title             | Styles applied to all NavItem titles                                     |
 
 ## Drawer Footer
 
@@ -235,9 +248,11 @@ import DrawerFooter from '@pxblue/react-components/core/Drawer';
 
 <div style="overflow: auto;">
 
-| Prop Name       | Description                       | Type     | Required | Default |
-| --------------- | --------------------------------- | -------- | -------- | ------- |
-| backgroundColor | The color used for the background | `string` | no       |         |
+| Prop Name             | Description                                  | Type      | Required | Default |
+| --------------------- | -------------------------------------------- | --------- | -------- | ------- |
+| backgroundColor       | The color used for the background            | `string`  | no       |         |
+| divider               | Optional divider which appears above footer  | `boolean` | no       | `true`  |
+| hideContentOnCollapse | Hide footer contents when drawer is closed   | `boolean` | no       | `true`  |
 
 </div>
 
@@ -315,21 +330,21 @@ The following props can be set at any level in the drawer hierarchy (`<Drawer>`,
 
 <div style="overflow: auto;">
 
-| Name                      | Description                                                                                                                                                 | Type                    | Required | Default                                                      |
-| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | -------- | ------------------------------------------------------------ |
-| activeItemBackgroundColor | Background color for the 'active' item                                                                                                                      | `string`                | no       | varies for light/dark theme                                  |
-| activeItemBackgroundShape | shape of the active item background                                                                                                                         | `'round'` \| `'square'` | no       | round                                                        |
-| activeItemFontColor       | Font color for the 'active' item                                                                                                                            | `string`                | no       | varies for light/dark theme                                  |
-| activeItemIconColor       | Icon color for the 'active' item                                                                                                                            | `string`                | no       | varies for light/dark theme                                  |
-| chevron                   | Whether to have chevrons for all menu items                                                                                                                 | `boolean`               | no       |                                                              |
-| collapseIcon              | Icon used to collapse drawer                                                                                                                                | `JSX.Element`           | no       | `expandIcon` rotated 180 degrees                             |
-| divider                   | Whether to show a line between all items                                                                                                                    | `boolean`               | no       | true                                                         |
-| expandIcon                | Icon used to expand drawer                                                                                                                                  | `JSX.Element`           | no       | `<ExpandMore />` at top-level, `<ArrowDropDown />` otherwise |
-| hidePadding               | Whether to hide the paddings reserved for menu item icons                                                                                                   | `boolean`               | no       |                                                              |
-| InfoListItemProps         | Used to override [InfoListItem](https://pxblue-components.github.io/react/?path=/info/components-info-list-item--get-read-me-story) props set by the Drawer | `InfoListItemProps`     | no       |                                                              |
-| itemFontColor             | The color used for the item text                                                                                                                            | `string`                | no       | varies for light/dark theme                                  |
-| itemIconColor             | The color used for the icon                                                                                                                                 | `string`                | no       | varies for light/dark theme                                  |
-| ripple                    | Whether to apply material ripple effect to items                                                                                                            | `boolean`               | no       | true                                                         |
+| Name                      | Description                                                                                                                                                 | Type                    | Required | Default                                                       |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | -------- | ------------------------------------------------------------- |
+| activeItemBackgroundColor | Background color for the 'active' item                                                                                                                      | `string`                | no       | varies for light/dark theme                                   |
+| activeItemBackgroundShape | shape of the active item background                                                                                                                         | `'round'` \| `'square'` | no       | square                                                        |
+| activeItemFontColor       | Font color for the 'active' item                                                                                                                            | `string`                | no       | varies for light/dark theme                                   |
+| activeItemIconColor       | Icon color for the 'active' item                                                                                                                            | `string`                | no       | varies for light/dark theme                                   |
+| chevron                   | Whether to have chevrons for all menu items                                                                                                                 | `boolean`               | no       |                                                               |
+| collapseIcon              | Icon used to collapse drawer                                                                                                                                | `JSX.Element`           | no       | `expandIcon` rotated 180 degrees                              |
+| divider                   | Whether to show a line between all items                                                                                                                    | `boolean`               | no       | false                                                         |
+| expandIcon                | Icon used to expand drawer                                                                                                                                  | `JSX.Element`           | no       | `<ExpandMore />` at top-level, `<ArrowDropDown />` otherwise  |
+| hidePadding               | Whether to hide the paddings reserved for menu item icons                                                                                                   | `boolean`               | no       |                                                               |
+| InfoListItemProps         | Used to override [InfoListItem](https://pxblue-components.github.io/react/?path=/info/components-info-list-item--get-read-me-story) props set by the Drawer | `InfoListItemProps`     | no       |                                                               |
+| itemFontColor             | The color used for the item text                                                                                                                            | `string`                | no       | varies for light/dark theme                                   |
+| itemIconColor             | The color used for the icon                                                                                                                                 | `string`                | no       | varies for light/dark theme                                   |
+| ripple                    | Whether to apply material ripple effect to items                                                                                                            | `boolean`               | no       | true                                                          |
 
 </div>
 
@@ -337,12 +352,13 @@ The following props control the NavGroup and thus only apply to `<Drawer>`, and 
 
 <div style="overflow: auto;">
 
-| Name                  | Description                                      | Type      | Required | Default                                                      |
-| --------------------- | ------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
-| activeItem            | itemID for the 'active' item                     | `string`  | no       |                                                              |
-| nestedBackgroundColor | background color for nested menu items           | `string`  | no       | theme.palette.type === 'light' ? white[200] : darkBlack[100] |
-| nestedDivider         | Whether to show a line between nested menu items | `boolean` | no       | false                                                        |
-| titleColor            | Font color for group header                      | `string`  | no       | theme.palette.text.primary                                   |
+| Name                            | Description                                                                     | Type      | Required | Default                                                      |
+| ------------------------------- | ------------------------------------------------------------------------------- | --------- | -------- | ------------------------------------------------------------ |
+| activeItem                      | itemID for the 'active' item                                                    | `string`  | no       |                                                              |
+| disableActiveItemParentStyles   | If true, NavItems will not have a bold title when a child NavItem is selected   | `boolean` | no       | `false`                                                      |
+| nestedBackgroundColor           | background color for nested menu items                                          | `string`  | no       | theme.palette.type === 'light' ? white[200] : darkBlack[100] |
+| nestedDivider                   | Whether to show a line between nested menu items                                | `boolean` | no       | false                                                        |
+| titleColor                      | Font color for group header                                                     | `string`  | no       | theme.palette.text.primary                                   |
 
 </div>
 
@@ -417,8 +433,9 @@ Any other props supplied will be provided to the root element (`div`).
 
 You can override the classes used by PX Blue by passing a `classes` prop. The `<DrawerLayout>` supports the following keys:
 
-| Name    | Description                                  |
-| ------- | -------------------------------------------- |
-| root    | Styles applied to the root element           |
-| content | Styles applied to the body content container |
-| drawer  | Styles applied to the drawer container       |
+| Name     | Description                                                    |
+| -------- | -------------------------------------------------------------- |
+| content  | Styles applied to the body content container                   |
+| drawer   | Styles applied to the drawer container                         |
+| expanded | Styles applied to the root element when the drawer is expanded |
+| root     | Styles applied to the root element                             |
