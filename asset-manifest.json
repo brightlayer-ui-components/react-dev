@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/main.74e4c370776ece11ea68.bundle.js",
-    "main.js.map": "/main.74e4c370776ece11ea68.bundle.js.map",
-    "runtime~main.js": "/runtime~main.74e4c370776ece11ea68.bundle.js",
-    "runtime~main.js.map": "/runtime~main.74e4c370776ece11ea68.bundle.js.map",
+    "main.js": "/main.9442bee95443be18f29b.bundle.js",
+    "main.js.map": "/main.9442bee95443be18f29b.bundle.js.map",
+    "runtime~main.js": "/runtime~main.9442bee95443be18f29b.bundle.js",
+    "runtime~main.js.map": "/runtime~main.9442bee95443be18f29b.bundle.js.map",
     "vendors~main.css": "/vendors~main.css",
-    "vendors~main.js": "/vendors~main.74e4c370776ece11ea68.bundle.js",
+    "vendors~main.js": "/vendors~main.9442bee95443be18f29b.bundle.js",
     "vendors~main.css.map": "/vendors~main.css.map",
-    "vendors~main.js.map": "/vendors~main.74e4c370776ece11ea68.bundle.js.map",
+    "vendors~main.js.map": "/vendors~main.9442bee95443be18f29b.bundle.js.map",
     "iframe.html": "/iframe.html",
-    "precache-manifest.6078ce1e715b9a9a0feeb36232e238b7.js": "/precache-manifest.6078ce1e715b9a9a0feeb36232e238b7.js",
+    "precache-manifest.c4d2a7797ebb97bc363335cb92b64184.js": "/precache-manifest.c4d2a7797ebb97bc363335cb92b64184.js",
     "service-worker.js": "/service-worker.js",
     "static/media/EatonLogo.svg": "/static/media/EatonLogo.bb857d1a.svg",
     "static/media/channelValue.png": "/static/media/channelValue.361119ef.png",
@@ -30,7 +30,16 @@
     "static/media/infoListItem.png": "/static/media/infoListItem.ffb442ca.png",
     "static/media/listItemTag.png": "/static/media/listItemTag.185ee093.png",
     "static/media/navItemAnatomy.png": "/static/media/navItemAnatomy.5bec9156.png",
-    "static/media/index.css": "/static/media/open-sans-latin-800italic.c62c3eea.woff2",
+    "static/media/300-italic.css": "/static/media/open-sans-vietnamese-300-italic.185c988d.woff2",
+    "static/media/300.css": "/static/media/open-sans-vietnamese-300-normal.e5565c92.woff2",
+    "static/media/400-italic.css": "/static/media/open-sans-vietnamese-400-italic.1dc667c0.woff2",
+    "static/media/400.css": "/static/media/open-sans-vietnamese-400-normal.eafec10d.woff2",
+    "static/media/600-italic.css": "/static/media/open-sans-vietnamese-600-italic.42f81722.woff2",
+    "static/media/600.css": "/static/media/open-sans-vietnamese-600-normal.3cb1ef2e.woff2",
+    "static/media/700-italic.css": "/static/media/open-sans-vietnamese-700-italic.ef9a4320.woff2",
+    "static/media/700.css": "/static/media/open-sans-vietnamese-700-normal.36ae0534.woff2",
+    "static/media/800-italic.css": "/static/media/open-sans-vietnamese-800-italic.3864fcf9.woff2",
+    "static/media/800.css": "/static/media/open-sans-vietnamese-800-normal.a312f439.woff2",
     "static/media/pxb-icon.svg": "/static/media/pxb-icon.c26b974a.svg",
     "static/media/pxblue-react-alpha.svg": "/static/media/pxblue-react-alpha.a7cce419.svg",
     "static/media/pxblue-react-beta.svg": "/static/media/pxblue-react-beta.0a85a594.svg",
@@ -45,13 +54,13 @@
     "static/media/userMenuAnatomy.png": "/static/media/userMenuAnatomy.21661f89.png",
     "static/media/userMenuAvatar.png": "/static/media/userMenuAvatar.abebf922.png",
     "static/media/userMenuOpened.png": "/static/media/userMenuOpened.d17b1abb.png",
-    "vendors~main.74e4c370776ece11ea68.bundle.js.LICENSE.txt": "/vendors~main.74e4c370776ece11ea68.bundle.js.LICENSE.txt"
+    "vendors~main.9442bee95443be18f29b.bundle.js.LICENSE.txt": "/vendors~main.9442bee95443be18f29b.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.74e4c370776ece11ea68.bundle.js",
-    "static/css/vendors~main.067c3eaa.chunk.css",
+    "runtime~main.9442bee95443be18f29b.bundle.js",
+    "static/css/vendors~main.afdf6903.chunk.css",
     "vendors~main.css",
-    "vendors~main.74e4c370776ece11ea68.bundle.js",
-    "main.74e4c370776ece11ea68.bundle.js"
+    "vendors~main.9442bee95443be18f29b.bundle.js",
+    "main.9442bee95443be18f29b.bundle.js"
   ]
 }
