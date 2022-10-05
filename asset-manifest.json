@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-dev/static/css/main.504a0386.css",
-    "main.js": "/react-dev/static/js/main.cfe72623.js",
+    "main.js": "/react-dev/static/js/main.dc24c584.js",
     "static/js/529.de2f5004.chunk.js": "/react-dev/static/js/529.de2f5004.chunk.js",
     "static/media/appBar.gif": "/react-dev/static/media/appBar.980a997b41e848fe321d.gif",
     "static/media/farm.jpg": "/react-dev/static/media/farm.c34dd7a2043af396b769.jpg",
@@ -140,11 +140,11 @@
     "static/media/react_logo.svg": "/react-dev/static/media/react_logo.783aeec70f33aceac222f246046c7e20.svg",
     "index.html": "/react-dev/index.html",
     "main.504a0386.css.map": "/react-dev/static/css/main.504a0386.css.map",
-    "main.cfe72623.js.map": "/react-dev/static/js/main.cfe72623.js.map",
+    "main.dc24c584.js.map": "/react-dev/static/js/main.dc24c584.js.map",
     "529.de2f5004.chunk.js.map": "/react-dev/static/js/529.de2f5004.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.504a0386.css",
-    "static/js/main.cfe72623.js"
+    "static/js/main.dc24c584.js"
   ]
 }
