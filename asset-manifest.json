@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-dev/static/css/main.504a0386.css",
-    "main.js": "/react-dev/static/js/main.16fcaeb6.js",
+    "main.js": "/react-dev/static/js/main.559a9779.js",
     "static/js/529.de2f5004.chunk.js": "/react-dev/static/js/529.de2f5004.chunk.js",
     "static/media/appBar.gif": "/react-dev/static/media/appBar.980a997b41e848fe321d.gif",
     "static/media/farm.jpg": "/react-dev/static/media/farm.c34dd7a2043af396b769.jpg",
@@ -38,8 +38,9 @@
     "static/media/drawer.png": "/react-dev/static/media/drawer.ea835f4b6ece136c2b1c.png",
     "static/media/navItemAnatomy.png": "/react-dev/static/media/navItemAnatomy.3aa302f8e18ced928641.png",
     "static/media/BrightlayerUIIcons.woff2?": "/react-dev/static/media/BrightlayerUIIcons.38614213918b818a60df.woff2",
-    "static/media/channelValue.png": "/react-dev/static/media/channelValue.054afba2dcc7e6427d4f.png",
+    "static/media/channelValueAnatomy.png": "/react-dev/static/media/channelValueAnatomy.3e47c2681899b199281a.png",
     "static/media/drawerHeaderAnatomy.png": "/react-dev/static/media/drawerHeaderAnatomy.ba9eb5bb63f4ca1f0b13.png",
+    "static/media/channelValue.png": "/react-dev/static/media/channelValue.4a14ef3c906cb43bffc0.png",
     "static/media/open-sans-cyrillic-ext-600-italic.woff2": "/react-dev/static/media/open-sans-cyrillic-ext-600-italic.c52d6b367a038e912bce.woff2",
     "static/media/open-sans-cyrillic-ext-300-italic.woff2": "/react-dev/static/media/open-sans-cyrillic-ext-300-italic.13a4e9e67292cc7588fc.woff2",
     "static/media/open-sans-cyrillic-ext-400-italic.woff2": "/react-dev/static/media/open-sans-cyrillic-ext-400-italic.65b3a3b2f424a8289dfd.woff2",
@@ -140,11 +141,11 @@
     "static/media/react_logo.svg": "/react-dev/static/media/react_logo.783aeec70f33aceac222f246046c7e20.svg",
     "index.html": "/react-dev/index.html",
     "main.504a0386.css.map": "/react-dev/static/css/main.504a0386.css.map",
-    "main.16fcaeb6.js.map": "/react-dev/static/js/main.16fcaeb6.js.map",
+    "main.559a9779.js.map": "/react-dev/static/js/main.559a9779.js.map",
     "529.de2f5004.chunk.js.map": "/react-dev/static/js/529.de2f5004.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.504a0386.css",
-    "static/js/main.16fcaeb6.js"
+    "static/js/main.559a9779.js"
   ]
 }
