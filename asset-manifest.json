@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-dev/static/css/main.0b6161e5.css",
-    "main.js": "/react-dev/static/js/main.94368f81.js",
+    "main.css": "/react-dev/static/css/main.11404b07.css",
+    "main.js": "/react-dev/static/js/main.94308152.js",
     "static/js/529.de2f5004.chunk.js": "/react-dev/static/js/529.de2f5004.chunk.js",
     "static/media/appBar.gif": "/react-dev/static/media/appBar.980a997b41e848fe321d.gif",
     "static/media/farm.jpg": "/react-dev/static/media/farm.c34dd7a2043af396b769.jpg",
@@ -136,6 +136,7 @@
     "static/media/open-sans-vietnamese-700-normal.woff2": "/react-dev/static/media/open-sans-vietnamese-700-normal.6e284d5f12b6c4e8752b.woff2",
     "static/media/roboto-vietnamese-400-normal.woff2": "/react-dev/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-mono-greek-400-normal.woff2": "/react-dev/static/media/roboto-mono-greek-400-normal.95e7a382e12921ef32ee.woff2",
+    "static/media/zebra-striping-table.svg": "/react-dev/static/media/zebra-striping-table.d8fcc9697232c789cd98932d5ab62fbf.svg",
     "static/media/roboto-mono-vietnamese-400-normal.woff2": "/react-dev/static/media/roboto-mono-vietnamese-400-normal.a9575edb558363648d81.woff2",
     "static/media/open-sans-greek-ext-300-italic.woff2": "/react-dev/static/media/open-sans-greek-ext-300-italic.9da55d3e3f46293f3c5a.woff2",
     "static/media/open-sans-greek-ext-700-italic.woff2": "/react-dev/static/media/open-sans-greek-ext-700-italic.0e29e57a86ce83e1eab8.woff2",
@@ -148,14 +149,13 @@
     "static/media/open-sans-greek-ext-600-normal.woff2": "/react-dev/static/media/open-sans-greek-ext-600-normal.89b326b88092845d13bc.woff2",
     "static/media/open-sans-greek-ext-700-normal.woff2": "/react-dev/static/media/open-sans-greek-ext-700-normal.62f39cc9ee19d2e0df1e.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/react-dev/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
-    "static/media/react_logo.svg": "/react-dev/static/media/react_logo.783aeec70f33aceac222f246046c7e20.svg",
     "index.html": "/react-dev/index.html",
-    "main.0b6161e5.css.map": "/react-dev/static/css/main.0b6161e5.css.map",
-    "main.94368f81.js.map": "/react-dev/static/js/main.94368f81.js.map",
+    "main.11404b07.css.map": "/react-dev/static/css/main.11404b07.css.map",
+    "main.94308152.js.map": "/react-dev/static/js/main.94308152.js.map",
     "529.de2f5004.chunk.js.map": "/react-dev/static/js/529.de2f5004.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b6161e5.css",
-    "static/js/main.94368f81.js"
+    "static/css/main.11404b07.css",
+    "static/js/main.94308152.js"
   ]
 }
