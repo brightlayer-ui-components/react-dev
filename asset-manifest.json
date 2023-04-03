@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-dev/static/css/main.11404b07.css",
-    "main.js": "/react-dev/static/js/main.e12d9437.js",
+    "main.js": "/react-dev/static/js/main.f4bcbdb1.js",
     "static/js/529.de2f5004.chunk.js": "/react-dev/static/js/529.de2f5004.chunk.js",
     "static/media/appBar.gif": "/react-dev/static/media/appBar.980a997b41e848fe321d.gif",
     "static/media/farm.jpg": "/react-dev/static/media/farm.c34dd7a2043af396b769.jpg",
@@ -148,14 +148,15 @@
     "static/media/open-sans-greek-ext-400-normal.woff2": "/react-dev/static/media/open-sans-greek-ext-400-normal.6e872659616d9b8fb28c.woff2",
     "static/media/open-sans-greek-ext-600-normal.woff2": "/react-dev/static/media/open-sans-greek-ext-600-normal.89b326b88092845d13bc.woff2",
     "static/media/open-sans-greek-ext-700-normal.woff2": "/react-dev/static/media/open-sans-greek-ext-700-normal.62f39cc9ee19d2e0df1e.woff2",
+    "static/media/circles.svg": "/react-dev/static/media/circles.27f3d11c1cf76cbaaccc6007d2e2ca78.svg",
     "static/media/roboto-greek-ext-400-normal.woff2": "/react-dev/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/react-dev/index.html",
     "main.11404b07.css.map": "/react-dev/static/css/main.11404b07.css.map",
-    "main.e12d9437.js.map": "/react-dev/static/js/main.e12d9437.js.map",
+    "main.f4bcbdb1.js.map": "/react-dev/static/js/main.f4bcbdb1.js.map",
     "529.de2f5004.chunk.js.map": "/react-dev/static/js/529.de2f5004.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11404b07.css",
-    "static/js/main.e12d9437.js"
+    "static/js/main.f4bcbdb1.js"
   ]
 }
