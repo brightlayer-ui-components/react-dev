@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-dev/static/css/main.11404b07.css",
-    "main.js": "/react-dev/static/js/main.a9b65fd6.js",
+    "main.css": "/react-dev/static/css/main.2064edb6.css",
+    "main.js": "/react-dev/static/js/main.8f90160e.js",
     "static/js/529.de2f5004.chunk.js": "/react-dev/static/js/529.de2f5004.chunk.js",
     "static/media/appBar.gif": "/react-dev/static/media/appBar.980a997b41e848fe321d.gif",
     "static/media/farm.jpg": "/react-dev/static/media/farm.c34dd7a2043af396b769.jpg",
@@ -151,12 +151,12 @@
     "static/media/circles.svg": "/react-dev/static/media/circles.27f3d11c1cf76cbaaccc6007d2e2ca78.svg",
     "static/media/roboto-greek-ext-400-normal.woff2": "/react-dev/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/react-dev/index.html",
-    "main.11404b07.css.map": "/react-dev/static/css/main.11404b07.css.map",
-    "main.a9b65fd6.js.map": "/react-dev/static/js/main.a9b65fd6.js.map",
+    "main.2064edb6.css.map": "/react-dev/static/css/main.2064edb6.css.map",
+    "main.8f90160e.js.map": "/react-dev/static/js/main.8f90160e.js.map",
     "529.de2f5004.chunk.js.map": "/react-dev/static/js/529.de2f5004.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11404b07.css",
-    "static/js/main.a9b65fd6.js"
+    "static/css/main.2064edb6.css",
+    "static/js/main.8f90160e.js"
   ]
 }
