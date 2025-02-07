@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-dev/static/css/main.df9569f1.css",
-    "main.js": "/react-dev/static/js/main.d055508e.js",
+    "main.js": "/react-dev/static/js/main.daea57ea.js",
     "static/js/510.d87cdc37.chunk.js": "/react-dev/static/js/510.d87cdc37.chunk.js",
     "static/media/appBar.gif": "/react-dev/static/media/appBar.980a997b41e848fe321d.gif",
     "static/media/farm.jpg": "/react-dev/static/media/farm.c34dd7a2043af396b769.jpg",
@@ -267,11 +267,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/react-dev/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/react-dev/index.html",
     "main.df9569f1.css.map": "/react-dev/static/css/main.df9569f1.css.map",
-    "main.d055508e.js.map": "/react-dev/static/js/main.d055508e.js.map",
+    "main.daea57ea.js.map": "/react-dev/static/js/main.daea57ea.js.map",
     "510.d87cdc37.chunk.js.map": "/react-dev/static/js/510.d87cdc37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df9569f1.css",
-    "static/js/main.d055508e.js"
+    "static/js/main.daea57ea.js"
   ]
 }
