@@ -833,14 +833,14 @@ the Global CSS Class in your main stylesheet`}),`
 
 const MyCustomSuccessScreen = () => {
 return (
+
 <SuccessScreenBase
-EmptyStateProps={{
-              title: 'Congratulations!',
-              description: 'You have been registered successfully',
-          }}
+  EmptyStateProps={{
+      title: 'Congratulations!',
+      description: 'You have been registered successfully',
+  }}
 />
-);
-};
+); };
 
 <RegistrationWorkflow successScreen={<MyCustomSuccessScreen />} />
 ;`}),`
@@ -947,30 +947,28 @@ const registrationWorkflowKorean = {
 };
 
 // Create your application i18n instance
-export const i18nAppInstance = i18next.createInstance(
-{
-...
-resources: {
-...
-kr: {
-// provide your app-side translation in your app namespace
-app: {
-...AppDictionaries.korean.translation,
-},
-// provide the custom workflow translations to the workflow namespaces
-bluiAuth: {
-...authWorkflowKorean.translation,
-},
-bluiRegistration: {
-...registrationWorkflowKorean.translation,
-},
-bluiCommon: {
-...commonWorkflowKorean.translation,
-},
-},
-},
-},
-);`}),`
+export const i18nAppInstance = i18next.createInstance({
+  ...
+  resources: {
+      ...
+      kr: {
+          // provide your app-side translation in your app namespace
+          app: {
+              ...AppDictionaries.korean.translation,
+          },
+          // provide the custom workflow translations to the workflow namespaces
+          bluiAuth: {
+              ...authWorkflowKorean.translation,
+          },
+          bluiRegistration: {
+              ...registrationWorkflowKorean.translation,
+          },
+          bluiCommon: {
+              ...commonWorkflowKorean.translation,
+          },
+      },
+  },
+});`}),`
 `,r.jsxs(e.p,{children:["You will then need to pass this i18n instance through the ",r.jsx(e.code,{children:"i18n"})," prop on the ",r.jsx(e.code,{children:"RegistrationContextProvider"})," wrappers."]}),`
 `,r.jsxs(e.blockquote,{children:[`
 `,r.jsxs(e.p,{children:[`For a complete list of resource IDs available, refer to the documentation for
